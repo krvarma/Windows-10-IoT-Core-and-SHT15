@@ -24,3 +24,5 @@ To see the sensor values, access the internal HTTP Server using the URL `http://
 ![RPI2 and SHT15](https://raw.githubusercontent.com/krvarma/Windows-10-IoT-Core-and-SHT15/master/images/IMG_0029.JPG)
 
 ![Browser Output](https://raw.githubusercontent.com/krvarma/Windows-10-IoT-Core-and-SHT15/master/images/browser.png)
+
+![Fritzing](https://raw.githubusercontent.com/krvarma/Windows-10-IoT-Core-and-SHT15/master/images/w10_sht15_bb.png)
