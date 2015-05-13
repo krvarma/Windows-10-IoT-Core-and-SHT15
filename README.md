@@ -17,5 +17,10 @@ The project reads Temperature, Humidity and calculate the Dew Point. The Dew Poi
 
 Open the project in Visual Studio 2015. Start the application using the 'Remote Device' option under the Debug Tab. Configure the IP Address of the RPi2.
 
-To see the sensor values, access the internal HTTP Server using the URL http://<<RPi2 IP Address>>:8080. The web page automatically refresh every 5 seconds.
+To see the sensor values, access the internal HTTP Server using the URL `http://<<RPi2 IP Address>>:8080`. The web page automatically refresh every 5 seconds.
 
+![RPi2 and SHT15](https://raw.githubusercontent.com/krvarma/Windows-10-IoT-Core-and-SHT15/master/images/IMG_0031.JPG)
+
+![RPI2 and SHT15](https://raw.githubusercontent.com/krvarma/Windows-10-IoT-Core-and-SHT15/master/images/IMG_0029.JPG)
+
+![Browser Output](https://raw.githubusercontent.com/krvarma/Windows-10-IoT-Core-and-SHT15/master/images/browser.png)
