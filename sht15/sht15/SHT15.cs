@@ -165,7 +165,7 @@ namespace sht15
 
             // Check ACKs
             SckHigh();
-
+            
             if (GpioPinValue.Low != ReadDataPin())
             {
                 Debug.WriteLine("Error 1001");
@@ -286,8 +286,9 @@ namespace sht15
             GpioPinValue ack = GpioPinValue.High;
 
             bool RetVal = false;
+            int i = 0;
 
-            for (int i = 0; i < 3000; ++i)
+            for (i = 0; i < 20000; ++i)
             {
                 ack = DataPin.Read();
 
@@ -298,6 +299,8 @@ namespace sht15
                     break;
                 }
             }
+
+            Debug.WriteLine("Max Loop: " + i);
 
             return RetVal;
         }

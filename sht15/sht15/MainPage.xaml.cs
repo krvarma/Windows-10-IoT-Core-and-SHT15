@@ -82,7 +82,7 @@ namespace sht15
         public sealed class HttpServer : IDisposable
         {
             private const uint bufLen = 8192;
-            private int defaultPort = 8080;
+            private int defaultPort = 8000;
             private readonly StreamSocketListener sock;
 
             public object[] TimeStamp { get; private set; }
